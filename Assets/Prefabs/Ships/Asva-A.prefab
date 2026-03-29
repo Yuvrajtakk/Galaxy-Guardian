@@ -72,7 +72,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 316290058726008628, guid: 6d7a0ff8208abd7499680616bb99bbaa, type: 3}
       propertyPath: hitCount
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 316290058726008628, guid: 6d7a0ff8208abd7499680616bb99bbaa, type: 3}
       propertyPath: scoreValue
