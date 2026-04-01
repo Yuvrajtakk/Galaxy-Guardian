@@ -1,6 +1,6 @@
 using UnityEngine;
 using TMPro;
-using UnityEngine.Rendering;
+
 public class Dialouge : MonoBehaviour
 {
     [SerializeField] string[] timelinesTextlines;
@@ -9,8 +9,10 @@ public class Dialouge : MonoBehaviour
     int currentLine = 0;
     public void NextDialogueLine()
     {
-        currentLine++;
+        if (timelinesTextlines == null || dialogueText == null) return;
+        if (currentLine >= timelinesTextlines.Length) return;
         dialogueText.text = timelinesTextlines[currentLine];
+        currentLine++;
     }
 
 }

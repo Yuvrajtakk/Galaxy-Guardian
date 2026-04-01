@@ -1,6 +1,4 @@
-using UnityEditor.ShaderGraph.Internal;
 using UnityEngine;
-using UnityEngine.AI;
 using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
